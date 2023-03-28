@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.container textarea{
+    background-color: #40443e;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+main{
+    display: flex;
+}
+
+.liste{
+    list-style: none;
+}
+.liste li{
+    margin: 14px 4px;
+    
+}
+
+.liste a{
+    text-decoration: none;
+    
+}
+.liste a:hover{
+    
+    background-color: black;
+    
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
